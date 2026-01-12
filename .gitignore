@@ -52,15 +52,13 @@ core/core-frontend/src/assets/fsSvg.html
 .vite/
 /core/backend/
 
-# 排除根目录下的下载jar包
+# 排除根目录下的下载jar包，但允许特定的包
 *.jar
 !drivers/*.jar
-
-# 排除特定下载的jar包
-calcite-core-*.jar
-bcprov-*.jar
-json-simple-*.jar
-avatica-core-*.jar
+!calcite-core-1.35.12-de.jar
+!bcprov-jdk15to18-1.78.jar
+!json-simple-1.1.1.jar
+!avatica-core-1.26.0.jar
 
 # Maven构建目录
 target/
