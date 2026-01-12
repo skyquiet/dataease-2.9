@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mysql:*)",
+      "Bash(jar -xf:*)",
+      "Bash(cat:*)",
+      "Bash(chmod:*)",
+      "Bash(ls:*)",
+      "Bash(lsof:*)",
+      "Bash(./status.sh:*)",
+      "Bash(ps:*)",
+      "Bash(sudo mkdir:*)",
+      "Bash(sudo chown:*)",
+      "Bash(kill:*)",
+      "Bash(curl:*)",
+      "Bash(bash -c \"NODE_OPTIONS=--max_old_space_size=4096 nohup ./node_modules/.bin/vite --mode dev --host 0.0.0.0 --port 9528 > /tmp/dataease-frontend-9528.log 2>&1 &\")",
+      "Bash(bash -c \"NODE_OPTIONS=--max_old_space_size=4096 nohup node node_modules/vite/bin/vite.js --mode dev --host 0.0.0.0 --port 9528 > /tmp/dataease-frontend-9528.log 2>&1 &\")",
+      "Bash(node --version:*)",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run:*)",
+      "Bash(mcp-server-puppeteer --version)"
+    ]
+  }
+}
